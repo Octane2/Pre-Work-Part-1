@@ -39,4 +39,213 @@ h1 {
   light grey: #eaeaea;
 */
 
+//**************************************************************************************************************************************
+
 /* Your CSS code goes here */
+
+//**************************************************************************************************************************************
+
+/* Fonts */
+p1 {
+
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;	
+	color: #FFF;
+    font-weight: bold;
+   
+	
+}
+
+p2 {
+
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;	
+	color: #FFF;
+  
+}
+
+p3 {
+
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;	
+	color:#EF5F3C;
+    font-weight: bold;
+
+}
+
+p4 {
+
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;	
+	color:#777;
+    
+}
+
+p5 {
+
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;	
+	color:#777;
+    font-weight: bold;
+    
+}
+
+p6 {
+
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;	
+	color:#424242;
+    font-weight: bold;
+}
+
+p7 {
+
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;	
+	color:#20A1D4;
+
+}
+
+/* Containers */
+.container2 {
+
+    max-width: 310px;
+   	height: 250px;
+	background: #FFF;
+    border: 2px solid #EAEAEA;
+	text-align: center;
+  
+}
+ 
+ .grid-container1 {
+ 
+ 	width: 310px;
+    height: 12px;
+ 	background: #FFF;
+	border: 1px solid #EAEAEA;
+    display: grid;
+    grid-template-columns: 73% 30%;
+    grid-template-rows: 10px 10px;
+    
+}
+ 
+.grid-container2 {
+
+	width: 310px;
+    background: #FFF;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10px;
+
+}
+
+.grid-container3 {
+	
+	width: 310px;
+    max-height: 290px;
+    background-color: #FFF;
+    border: 2px solid #EAEAEA;
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "content content"
+    "textbox button"
+    "footer footer";
+    
+}
+
+.grid-container4 {
+
+	width: 310px;
+    height: 15px;
+ 	background: #FFF; 
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 10px 10px;
+	grid-column-gap: 10px;
+    grid-row-gap: 10px;
+	align-items: start;  
+   
+}
+
+/* Items */
+
+.item1 {
+	
+    background: #EF5F3C;
+	
+}
+
+.item2 {
+
+	background: #FFF;
+    
+}
+
+.item3 {
+	
+	background: #FFF;
+    padding: 10px;
+
+}
+
+ .item4 {
+ 
+	grid-area: content; 
+	background: #FFF;
+    padding: 10px;
+ 
+}
+
+.item5 {
+
+	grid-area: textbox;
+	bakground-color:#FFF;
+    border: 2px solid #EAEAEA;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    justify-self: start;
+    text-align: end;
+   
+}
+
+.item6 {
+	
+    grid-area: button;
+	background-color: #1CBC2C;
+	border-radius: 3px;
+ 	width: 100px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    text-justify: center;
+  
+}
+
+.item7 {
+
+	grid-area: footer;
+	background-color: #FFF;
+    padding: 10px;
+    text-justify: end;
+    
+ 
+ }
+ 
+ .item8 {
+ 
+ 	background-color: #FFF;
+    border: 2px solid #EAEAEA;
+    border-radius: 3px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    justify-text: center;
+}
+
+#gray-box {
+
+	background-color: #777;
+	width: 310px;
+	height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+}
